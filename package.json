@@ -1,0 +1,7 @@
+{
+  "name": "nonprofit-image-watermark-service",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node --experimental-strip-types src/publish_watermarked.ts", "test": "node --experimental-strip-types src/watermark_policy.test.ts", "typecheck": "tsc --noEmit"},
+  "devDependencies": {"typescript": "^5.7.2"}
+}
